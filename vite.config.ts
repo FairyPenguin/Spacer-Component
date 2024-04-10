@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: resolve(__dirname, "src"),
+      entry: resolve(__dirname, "src/components/index.ts"),
       name: "react-spacer-component",
       fileName: "index"
     },
