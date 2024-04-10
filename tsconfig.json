@@ -13,9 +13,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "outDir": "dist",
+    // "outDir": "dist",
     "declaration": true,
-    "typeRoots": ["./dist/spacer-component.d.ts"],
+    "typeRoots": ["./dist/index.d.ts", "node_modules/@types"],
 
     /* Linting */
     "strict": true,
@@ -23,6 +23,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "./index.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

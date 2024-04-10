@@ -32,7 +32,7 @@ const spaces = {
   "6.25rem": 25,
 };
 
-export function Spacer({ space = "0.25rem" }: SpacerType) {
+export default function Spacer({ space = "0.25rem" }: SpacerType) {
   //Version with Global CSS calss
   // return <div className={`spacer${spaces[space]}`}></div>;
   return (

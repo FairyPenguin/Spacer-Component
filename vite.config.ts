@@ -9,23 +9,28 @@ import dts from "vite-plugin-dts"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), dts()],
   build: {
     lib: {
-      entry: path.resolve("src", 'components/index.tsx'),
+      entry: path.resolve(__dirname, 'src/index.tsx'),
       name: "spacer-component",
       fileName: (format) => `spacer-component.${format}.js`
     },
 
     rollupOptions: {
-      external: ['react', 'react-dom'],
+      external: ["react", "react-dom"],
       output: {
         globals: {
-          react: 'React',
-          "react-dom": "ReactDOM"
+          react: "React",
+          "react-dom": "ReactDOM",
         }
       }
-    }
 
-  }
+    },
+    sourcemap: true,
+    //Clears the output directory before building.
+    emptyOutDir: true,
+
+  },
+
+  plugins: [react(), dts()],
 })
