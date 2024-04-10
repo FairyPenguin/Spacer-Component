@@ -2,16 +2,16 @@
   "name": "spacer-component",
   "description": "Spacer Component for 'React' to replace using margin",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "main": "dist/spacer-component.umd.js",
   "module": "dist/spacer-component.es.js",
-  "types": "dist/spacer-component.d.ts",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/spacer-component.es.js",
       "require": "./dist/spacer-component.umd.js",
-      "types": "./dist/spacer-component.d.ts"
+      "types": "./dist/index.d.ts"
     },
     "./styles": "./dist/style.css"
   },
@@ -51,5 +51,8 @@
     "type": "git",
     "url": "https://github.com/FairyPenguin/Spacer-Component"
   },
-  "author": "Fairy-Penguin | Mahmoud-Az"
+  "author": "Fairy-Penguin | Mahmoud-Az",
+  "dependencies": {
+    "spacer-component": "^0.0.5"
+  }
 }
