@@ -11,7 +11,7 @@ import dts from "vite-plugin-dts"
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/index.tsx'),
+      entry: path.resolve(__dirname, 'src/index.ts'),
       name: "spacer-component",
       fileName: (format) => `spacer-component.${format}.js`
     },
