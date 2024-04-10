@@ -1,9 +1,11 @@
-import { Spacer } from "./components/Spacer/Spacer";
+// import { Spacer } from "./components/Spacer/Spacer";
+import { Spacer } from "react-spacer-component";
 
 function App() {
   return (
     <>
-      <Spacer space={"2.25rem"} />
+      <h1></h1>
+      <Spacer space={"0.25rem"} />
     </>
   );
 }
