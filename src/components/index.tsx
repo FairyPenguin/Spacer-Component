@@ -1,2 +1,2 @@
-export { Spacer } from "./Spacer/index";
-export type { SpacerType } from "./Spacer/index";
+export { Spacer } from "./Spacer/Spacer";
+// export type { SpacerType } from "./Spacer";
