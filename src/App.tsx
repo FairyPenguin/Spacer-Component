@@ -1,5 +1,4 @@
-// import { Spacer } from "./components/Spacer/Spacer";
-import { Spacer } from "react-spacer-component";
+import { Spacer } from "./components/Spacer/Spacer";
 
 function App() {
   return (

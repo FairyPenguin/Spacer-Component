@@ -12,7 +12,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: path.resolve("src", 'src/components/Spacer/index.tsx'),
+      entry: path.resolve("src", 'components/Spacer/index.tsx'),
       name: "spacer-component",
       fileName: (format) => `spacer-component.${format}.js`
     },
