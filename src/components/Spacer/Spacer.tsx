@@ -1,6 +1,6 @@
 import styles from "./Spacer.module.css";
 
-type Spacer = {
+export type SpacerType = {
   space: keyof typeof spaces;
 };
 
@@ -32,7 +32,7 @@ const spaces = {
   "6.25rem": 25,
 };
 
-export default function Spacer({ space = "0.25rem" }: Spacer) {
+export function Spacer({ space = "0.25rem" }: SpacerType) {
   //Version with Global CSS calss
   // return <div className={`spacer${spaces[space]}`}></div>;
   return (

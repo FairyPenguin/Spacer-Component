@@ -11,6 +11,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  react-spacer-component:
+    specifier: ^0.0.1
+    version: 0.0.1(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@types/node':
@@ -1436,6 +1439,16 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-spacer-component@0.0.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-hOX6YaQIIzxLHoIIJLcYKXfHeJzdbs1nOMStD5ztm/trqlNTzPB9Mz8FuSswkhA2lJjO9Ak+YKP6sYDes763dA==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react@18.2.0:

@@ -1,5 +1,4 @@
-import "./App.css";
-import Spacer from "./components/Spacer/Spacer";
+import { Spacer } from "./components/Spacer/Spacer";
 
 function App() {
   return (
