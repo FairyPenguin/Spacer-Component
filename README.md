@@ -1,4 +1,4 @@
-# Spacer Component _React_
+# Spacer Component [React]
 
 A simple and clean alternative solution for usign margin to create spaces.
 
@@ -13,6 +13,10 @@ Currently, only React[Nextjs - Remix] supported (Vue Version Soon):
 | ------------------ | ------ |
 | Minified           | 2 kB   |
 | Minified + Gzipped | 939 B  |
+
+### installation {#installation}
+
+### What is the Spacer Component {#what-is-the-spacer-component}
 
 ## installation
 
