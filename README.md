@@ -133,32 +133,34 @@ import "spacer-component/styles";
 
 > For now the only avilable Prop is the -space prop- which is required
 
-> Space Prop( **string** ) Values to horizontal space
+This table demonstarte the "Space Prop( **string** )" Values to the total horizontal space.
+
+> Simply what you choose and it's result
 
 | Value   | Total horizontal space in rem/px |
 | ------- | -------------------------------- |
 | 0.25rem | 0.50rem ==> 8px                  |
-| 0.5rem  | 1rem === 16px                    |
-| 0.75rem | 1.5rem === 24px                  |
-| 1rem    | 2rem === 32px                    |
-| 1.25rem | 2.5rem === 40px                  |
-| 1.5rem  | 3rem === 48px                    |
-| 1.75rem | 3.5rem === 56px                  |
-| 2rem    | 4rem === 64px                    |
-| 2.25rem | 4.5rem === 72px                  |
-| 2.5rem  | 5rem === 80px                    |
-| 2.75rem | 5.5rem === 88px                  |
-| 3rem    | 6rem === 96px                    |
-| 3.25rem | 6.5rem === 104px                 |
-| 3.5rem  | 7rem === 112px                   |
-| 3.75rem | 7.5rem === 120px                 |
-| 4rem    | 8rem === 128px                   |
-| 4.25rem | 8.5rem === 136px                 |
-| 4.5rem  | 9rem === 144px                   |
-| 4.75rem | 0.50rem === 152px                |
-| 5rem    | 10rem === 160px                  |
-| 5.25rem | 10.5rem === 168px                |
-| 5.5rem  | 11rem === 176px                  |
-| 5.75rem | 11.5rem === 184px                |
-| 6rem    | 12rem === 192px                  |
-| 6.25rem | 12.5rem === 200px                |
+| 0.5rem  | 1rem ==> 16px                    |
+| 0.75rem | 1.5rem ==> 24px                  |
+| 1rem    | 2rem ==> 32px                    |
+| 1.25rem | 2.5rem ==> 40px                  |
+| 1.5rem  | 3rem ==> 48px                    |
+| 1.75rem | 3.5rem ==> 56px                  |
+| 2rem    | 4rem ==> 64px                    |
+| 2.25rem | 4.5rem ==> 72px                  |
+| 2.5rem  | 5rem ==> 80px                    |
+| 2.75rem | 5.5rem ==> 88px                  |
+| 3rem    | 6rem ==> 96px                    |
+| 3.25rem | 6.5rem ==> 104px                 |
+| 3.5rem  | 7rem ==> 112px                   |
+| 3.75rem | 7.5rem ==> 120px                 |
+| 4rem    | 8rem ==> 128px                   |
+| 4.25rem | 8.5rem ==> 136px                 |
+| 4.5rem  | 9rem ==> 144px                   |
+| 4.75rem | 0.50rem ==> 152px                |
+| 5rem    | 10rem ==> 160px                  |
+| 5.25rem | 10.5rem ==> 168px                |
+| 5.5rem  | 11rem ==> 176px                  |
+| 5.75rem | 11.5rem ==> 184px                |
+| 6rem    | 12rem ==> 192px                  |
+| 6.25rem | 12.5rem ==> 200px                |
