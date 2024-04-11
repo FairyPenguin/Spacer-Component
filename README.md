@@ -1,20 +1,36 @@
 # Spacer Component _React_
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean alternative solution for usign margin to create spaces.
 
 Currently, only React[Nextjs - Remix] supported (Vue Version Soon):
 
-## Instaltion
+## Bundle Size
 
-```npm
+![minified size 2.0 KB](https://flat.badgen.net/bundlephobia/min/spacer-component)
+![minizipped size 939 B](https://flat.badgen.net/bundlephobia/minzip/spacer-component)
+
+| Size               | Bundle |
+| ------------------ | ------ |
+| Minified           | 2 kB   |
+| Minified + Gzipped | 939 B  |
+
+## installation
+
+```bash
+// NPM
+
 npm i spacer-component
 ```
 
-```npm
+```bash
+// PNPM
+
 pnpm add spacer-component
 ```
 
-```npm
+```bash
+// Yarn
+
 yarn install spacer-component
 ```
 
