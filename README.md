@@ -1,6 +1,6 @@
 # Spacer Component [React]
 
-A simple and clean alternative solution for usign margin to create spaces.
+A simple and clean alternative solution for usign margin to create horizontal spaces.
 
 Currently, only React[Nextjs - Remix] supported (Vue Version Soon):
 
@@ -39,20 +39,20 @@ yarn install spacer-component
 
 ## What is the Spacer Component
 
-Simply it's better solution than using **"css margin"** to ccreate spaces between elemnts/components in your projects.
+Simply it's better solution than using **"css margin"** to ccreate horizontal spaces between elemnts/components in your projects.
 
-it gives you the option to choose the space you need from arange of spaces with -0.25 increment-
+it gives you the option to choose the space you need from arange of spaces with **0.25 increment**
 
 ## Features
 
-- Forget margin problems and unexpected behavior
-- Small-footprint
-- Fully types with typescript
-- Wide range of incrementaled spaces
+- Forget margin problems and unexpected behavior.
+- Small-footprint.
+- Fully typed with typescript.
+- Wide range of incrementaled spaces.
 - Clear,meaningful and underatandble (KISS) props names and values,
   0.25rem is equal to 0.25rem no magic or weired naming or guessing games, the values names are same as the CSS values.
-- Uses padding block property so the value you choose is multiplied by 2 of course to get the full space,
-  for example ==> 1rem = 1rem top + 1rem bottom = 2rem (block)
+- Uses padding block property so the value you choose is multiplied by 2 of course to get the full horizontal space,
+  for example ==> -- 1rem = 1rem top + 1rem bottom = 2rem (block / horizontally)-- space
 
 ## Getting Started
 
@@ -90,31 +90,42 @@ import "spacer-component/styles";
 
 ```jsx
 {
-  /* Default value = 0.25rem = padding-block: 0.25rem = 8px space  */
+  /* Default value = 0.25rem 
+  = padding-block: 0.25rem 
+  = total 8px horizontal space  */
 }
 <Spacer space={"0.25rem"} />;
 {
-  /* Default value = 0.25rem = padding-block: 0.25rem = 8px space  */
+  /* Default value = 0.25rem 
+  = padding-block: 0.25rem 
+  = total 8px horizontal space  */
 }
-<Spacer space={"0.25rem"} />;
+<Spacer space={"0.50rem"} />;
 {
-  /* Default value = 0.25rem = padding-block: 0.25rem = 8px space  */
+  /* Default value = 0.25rem 
+  = padding-block: 0.25rem 
+  = total 8px horizontal space  */
 }
-<Spacer space={"0.25rem"} />;
+<Spacer space={"0.75rem"} />;
 {
-  /* Default value = 0.25rem = padding-block: 0.25rem = 8px space  */
+  /* Default value = 0.25rem 
+  = padding-block: 0.25rem 
+  = total 8px horizontal space  */
 }
-<Spacer space={"0.25rem"} />;
+<Spacer space={"1rem"} />;
 {
-  /* Default value = 0.25rem = padding-block: 0.25rem = 8px space  */
+  /* Default value = 0.25rem 
+  = padding-block: 0.25rem 
+  = total 8px horizontal space  */
 }
-<Spacer space={"0.25rem"} />;
+<Spacer space={"1.125rem"} />;
 {
-  /* Default value = 0.25rem = padding-block: 0.25rem = 8px space  */
+  /* Default value = 0.25rem 
+  = padding-block: 0.25rem 
+  = total 8px horizontal space  */
 }
-<Spacer space={"0.25rem"} />;
+<Spacer space={"1.5rem"} />;
 ```
 
 ## But why not using the regular css marign instead?
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
