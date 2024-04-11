@@ -11,9 +11,6 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
-  spacer-component:
-    specifier: ^0.0.5
-    version: 0.0.5(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@types/node':
@@ -1885,16 +1882,6 @@ packages:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
     dev: true
-
-  /spacer-component@0.0.5(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-mcUczRnizgogUNiOrURkgj4UdFaCQ4r+3LtYelbOgIcJSf8qjF8auFC6vg/yL95E1xuAoeo9SyEg+kAGDr3tfg==}
-    peerDependencies:
-      react: ^18.2.0
-      react-dom: ^18.2.0
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-    dev: false
 
   /sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
