@@ -9,31 +9,30 @@ Currently, only React[Nextjs - Remix] supported (Vue Version Soon):
 ![minified size 2.0 KB](https://flat.badgen.net/bundlephobia/min/spacer-component)
 ![minizipped size 939 B](https://flat.badgen.net/bundlephobia/minzip/spacer-component)
 
-| Size               | Bundle |
-| ------------------ | ------ |
-| Minified           | 2 kB   |
-| Minified + Gzipped | 939 B  |
-
-### installation {#installation}
-
-### What is the Spacer Component {#what-is-the-spacer-component}
+| Bundle             | Size  |
+| ------------------ | ----- |
+| Minified           | 2 kB  |
+| Minified + Gzipped | 939 B |
 
 ## installation
 
+> NPM
+
 ```bash
-// NPM
 
 npm i spacer-component
 ```
 
+> PNPM
+
 ```bash
-// PNPM
 
 pnpm add spacer-component
 ```
 
+> Yarn
+
 ```bash
-// Yarn
 
 yarn install spacer-component
 ```
