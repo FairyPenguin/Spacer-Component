@@ -87,6 +87,8 @@ import "spacer-component/styles";
 ```
 
 4. Choose the suitable space for your needs
+   > The space prop values are avilable via intellisense it's fully-types,just add "" and you will get a list of all the avilable values.
+   > This props is "**REQUIRED**" and it's type is "**STRING**", The defualt value is "0.25rem" if you didn't choose a value .
 
 ```jsx
 {

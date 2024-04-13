@@ -4,116 +4,207 @@
   /*
    == Spacers ::Alternative for margins::
     [use as an empty div
-   with padding-block or 
+   with padding-top or padding-block  
    use the utility classes] ==
     */
-  --spacer__margin__1: 0.25rem;
-  --spacer__margin__2: 0.5rem;
-  --spacer__margin__3: 0.75rem;
-  --spacer__margin__4: 1rem;
-  --spacer__margin__5: 1.25rem;
-  --spacer__margin__6: 1.5rem;
-  --spacer__margin__7: 1.75rem;
-  --spacer__margin__8: 2rem;
-  --spacer__margin__9: 2.25rem;
-  --spacer__margin__10: 2.5rem;
-  --spacer__margin__11: 2.75rem;
-  --spacer__margin__12: 3rem;
-  --spacer__margin__13: 3.25rem;
-  --spacer__margin__14: 3.5rem;
-  --spacer__margin__15: 3.75rem;
-  --spacer__margin__16: 4rem;
-  --spacer__margin__17: 4.25rem;
-  --spacer__margin__18: 4.5rem;
-  --spacer__margin__19: 4.75rem;
-  --spacer__margin__20: 5rem;
-  --spacer__margin__21: 5.25rem;
-  --spacer__margin__22: 5.5rem;
-  --spacer__margin__23: 5.75rem;
-  --spacer__margin__24: 6rem;
-  --spacer__margin__25: 6.25rem;
-
-  /* Testing Styles */
-  /* background-color: #e4e4e4;
-  width: 100%; */
+  --spacer__margin__0: 0;
+  --spacer__margin__1: 0.125rem;
+  --spacer__margin__2: 0.25rem;
+  --spacer__margin__3: 0.5rem;
+  --spacer__margin__4: 0.75rem;
+  --spacer__margin__5: 1rem;
+  --spacer__margin__6: 1.25rem;
+  --spacer__margin__7: 1.5rem;
+  --spacer__margin__8: 1.75rem;
+  --spacer__margin__9: 2rem;
+  --spacer__margin__10: 2.25rem;
+  --spacer__margin__11: 2.5rem;
+  --spacer__margin__12: 2.75rem;
+  --spacer__margin__13: 3rem;
+  --spacer__margin__14: 3.25rem;
+  --spacer__margin__15: 3.5rem;
+  --spacer__margin__16: 3.75rem;
+  --spacer__margin__17: 4rem;
+  --spacer__margin__18: 4.25rem;
+  --spacer__margin__19: 4.5rem;
+  --spacer__margin__20: 4.75rem;
+  --spacer__margin__21: 5rem;
+  --spacer__margin__22: 5.25rem;
+  --spacer__margin__23: 5.5rem;
+  --spacer__margin__24: 5.75rem;
+  --spacer__margin__25: 6rem;
+  --spacer__margin__26: 6.25rem;
 }
 
 /*
    == Spacers [use as an empty div
    with the utility class] ==
     */
+.spacer0 {
+  padding-top: var(--spacer__margin__0);
+}
+
+.spacer0_5 {
+  padding-top: var(--spacer__margin__1);
+}
 .spacer1 {
-  padding-block: var(--spacer__margin__1);
+  padding-top: var(--spacer__margin__2);
 }
 .spacer2 {
-  padding-block: var(--spacer__margin__2);
+  padding-top: var(--spacer__margin__3);
 }
 .spacer3 {
-  padding-block: var(--spacer__margin__3);
+  padding-top: var(--spacer__margin__4);
 }
 .spacer4 {
-  padding-block: var(--spacer__margin__4);
+  padding-top: var(--spacer__margin__5);
 }
 .spacer5 {
-  padding-block: var(--spacer__margin__5);
+  padding-top: var(--spacer__margin__6);
 }
 .spacer6 {
-  padding-block: var(--spacer__margin__6);
+  padding-top: var(--spacer__margin__7);
 }
 .spacer7 {
-  padding-block: var(--spacer__margin__7);
+  padding-top: var(--spacer__margin__8);
 }
 .spacer8 {
-  padding-block: var(--spacer__margin__8);
+  padding-top: var(--spacer__margin__9);
 }
 .spacer9 {
-  padding-block: var(--spacer__margin__9);
+  padding-top: var(--spacer__margin__10);
 }
 .spacer10 {
-  padding-block: var(--spacer__margin__10);
+  padding-top: var(--spacer__margin__11);
 }
 .spacer11 {
-  padding-block: var(--spacer__margin__11);
+  padding-top: var(--spacer__margin__12);
 }
 .spacer12 {
-  padding-block: var(--spacer__margin__12);
+  padding-top: var(--spacer__margin__13);
 }
 .spacer13 {
-  padding-block: var(--spacer__margin__13);
+  padding-top: var(--spacer__margin__14);
 }
 .spacer14 {
-  padding-block: var(--spacer__margin__14);
+  padding-top: var(--spacer__margin__15);
 }
 .spacer15 {
-  padding-block: var(--spacer__margin__15);
+  padding-top: var(--spacer__margin__16);
 }
 .spacer16 {
-  padding-block: var(--spacer__margin__16);
+  padding-top: var(--spacer__margin__17);
 }
 .spacer17 {
-  padding-block: var(--spacer__margin__17);
+  padding-top: var(--spacer__margin__18);
 }
 .spacer18 {
-  padding-block: var(--spacer__margin__18);
+  padding-top: var(--spacer__margin__19);
 }
 .spacer19 {
-  padding-block: var(--spacer__margin__19);
+  padding-top: var(--spacer__margin__20);
 }
 .spacer20 {
-  padding-block: var(--spacer__margin__20);
+  padding-top: var(--spacer__margin__21);
 }
 .spacer21 {
-  padding-block: var(--spacer__margin__21);
+  padding-top: var(--spacer__margin__22);
 }
 .spacer22 {
-  padding-block: var(--spacer__margin__22);
+  padding-top: var(--spacer__margin__23);
 }
 .spacer23 {
-  padding-block: var(--spacer__margin__23);
+  padding-top: var(--spacer__margin__24);
 }
 .spacer24 {
-  padding-block: var(--spacer__margin__24);
+  padding-top: var(--spacer__margin__25);
 }
 .spacer25 {
+  padding-top: var(--spacer__margin__26);
+}
+
+/* Double Spacer ==> Padding-Block */
+
+.double__spacer0 {
+  padding-block: var(--spacer__margin__0);
+}
+.double__spacer0_5 {
+  padding-block: var(--spacer__margin__1);
+}
+.double__spacer1 {
+  padding-block: var(--spacer__margin__2);
+}
+.double__spacer2 {
+  padding-block: var(--spacer__margin__3);
+}
+.double__spacer3 {
+  padding-block: var(--spacer__margin__4);
+}
+.double__spacer4 {
+  padding-block: var(--spacer__margin__5);
+}
+.double__spacer5 {
+  padding-block: var(--spacer__margin__6);
+}
+.double__spacer6 {
+  padding-block: var(--spacer__margin__7);
+}
+.double__spacer7 {
+  padding-block: var(--spacer__margin__8);
+}
+.double__spacer8 {
+  padding-block: var(--spacer__margin__9);
+}
+.double__spacer9 {
+  padding-block: var(--spacer__margin__10);
+}
+.double__spacer10 {
+  padding-block: var(--spacer__margin__11);
+}
+.double__spacer11 {
+  padding-block: var(--spacer__margin__12);
+}
+.double__spacer12 {
+  padding-block: var(--spacer__margin__13);
+}
+
+.double__spacer13 {
+  padding-block: var(--spacer__margin__14);
+}
+
+.double__spacer14 {
+  padding-block: var(--spacer__margin__15);
+}
+.double__spacer15 {
+  padding-block: var(--spacer__margin__16);
+}
+.double__spacer16 {
+  padding-block: var(--spacer__margin__17);
+}
+.double__spacer17 {
+  padding-block: var(--spacer__margin__18);
+}
+.double__spacer18 {
+  padding-block: var(--spacer__margin__19);
+}
+.double__spacer19 {
+  padding-block: var(--spacer__margin__20);
+}
+.double__spacer20 {
+  padding-block: var(--spacer__margin__21);
+}
+.double__spacer21 {
+  padding-block: var(--spacer__margin__22);
+}
+.double__spacer22 {
+  padding-block: var(--spacer__margin__23);
+}
+.double__spacer23 {
+  padding-block: var(--spacer__margin__24);
+}
+.double__spacer24 {
   padding-block: var(--spacer__margin__25);
+}
+.double__spacer25 {
+  padding-block: var(--spacer__margin__26);
 }
