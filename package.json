@@ -2,7 +2,7 @@
   "name": "spacer-component",
   "description": "Spacer Component for 'React' to replace using margin",
   "private": false,
-  "version": "0.0.10-beta.4",
+  "version": "0.0.11-beta.5",
   "type": "module",
   "main": "dist/spacer-component.umd.js",
   "module": "dist/spacer-component.es.js",
