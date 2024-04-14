@@ -16,23 +16,19 @@ Currently, only React[Nextjs - Remix] supported (Web Components & Vue Version WI
 
 ## installation
 
-> NPM
-
 ```sh
-
+> NPM
 npm i spacer-component
 ```
 
-> PNPM
-
 ```sh
+> PNPM
 
 pnpm add spacer-component
 ```
 
-> Yarn
-
 ```sh
+> Yarn
 
 yarn install spacer-component
 ```
